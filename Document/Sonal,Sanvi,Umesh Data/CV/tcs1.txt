@@ -1,0 +1,32 @@
+
+Class Demo1{
+Public void demo(){
+System.out println("Zero argument method");
+}
+
+Public void demo(int 1){
+System.out println("int argument method");
+}
+
+public stactic void main(String []arg){
+Demo1 d= new Demo1(){
+d.demo1();
+}
+}
+   *
+  **
+ ****
+******
+
+
+
+for(int i=0;i<6;i++){
+
+for(int j=6;i>0;i--){
+System.out.print(" ");
+}
+for(int k=0k<=i;k++){
+System.out.print(" *");
+}
+System.out.println();
+}

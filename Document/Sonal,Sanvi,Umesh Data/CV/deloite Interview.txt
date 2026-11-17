@@ -1,0 +1,41 @@
+int a[]={4,6,8,9,1};
+
+TreeSet<Integer>ts= new TreeSet<Integer>(Arrays.asList(a[]);
+for(Integer n:ts){
+Sysytem.out.println(n);
+}
+
+
+HashMap<Integer,Integer>hm= new HashMap<Integer,Integer>();
+int count=0;
+int count1=0;
+int c=0;
+Set<Entry<Integer,Integer>se:hm.entrySet(){
+for(Entry<Integer,Integer>es:se){
+
+if(es.containsValue()&& count==0){
+count1=count1+se.getValue();
+count++;
+}else(!se.containsValue()){
+count=0;}
+
+c=count/count1;
+
+
+System.out.println(c);
+
+Actions act= new Actions(driver);
+
+git .add()==staging;
+git .commit ("method login")==local
+git .push oringin maste== Remote
+git .pull -originmaster== local
+
+Select max(mark) from Student;
+
+
+
+
+
+
+

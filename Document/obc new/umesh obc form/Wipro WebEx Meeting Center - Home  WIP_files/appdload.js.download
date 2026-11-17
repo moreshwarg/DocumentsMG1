@@ -1,0 +1,18 @@
+window["adrum-start-time"] = (new Date).getTime();
+(function (config) {
+    try{
+      var appDConfigData = JSON.parse(document.querySelector('#appDConfigData').innerHTML);
+      var appD = document.createElement('script');
+      appD.type = 'text/javascript';
+      appD.async = true;
+      appD.src = appDConfigData.addrumjsSrc;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(appD, s);
+      config.appKey = appDConfigData.appKey;
+      config.adrumExtUrlHttp = appDConfigData.adrumExtUrlHttp;
+      config.adrumExtUrlHttps = appDConfigData.adrumExtUrlHttps;
+      config.beaconUrlHttp = appDConfigData.beaconUrlHttp;
+      config.beaconUrlHttps = appDConfigData.beaconUrlHttps;
+      config.xd = {enable : appDConfigData.xdEnable};
+    }catch(e){}
+  })(window['adrum-config'] || (window['adrum-config'] = {}));

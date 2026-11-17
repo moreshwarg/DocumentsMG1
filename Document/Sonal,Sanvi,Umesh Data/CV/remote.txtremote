@@ -1,0 +1,9 @@
+Reverse the sentence with reversing each word
+
+String str="Reverse the sentence with reversing each word"'
+output="drow hcae gnisrever htiw ecnetnes eht esreveR";
+String rev="";
+for(int i=str.length();i>0;i--){
+rev=rev+str.charAt(i);
+}
+System.out.println(rev);

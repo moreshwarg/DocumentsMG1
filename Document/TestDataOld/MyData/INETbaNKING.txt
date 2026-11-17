@@ -1,0 +1,30 @@
+url;- https://demo.guru99.com/v4/
+user id ;- mngr405076
+password ;- dEpUqas
+
+
+--------------------
+1)Implementation
+a)create mavan project
+b)Update Pom.xml
+c)Create project Object
+d)Create Besic Test Case
+e)Add Logs To Test Case
+f)Read Common Value From Properties file
+g)Run test cases on desired broser
+i)Add Extend Report
+j)Create Data Driven Test Cases
+k)Adding new test Cases
+
+2)Excution
+3)Maintainance
+
+Maven
+pom.xml
+
+we can download depenc
+https://mvnrepository.com/
+
+------------------------
+log4j
+log4.jar

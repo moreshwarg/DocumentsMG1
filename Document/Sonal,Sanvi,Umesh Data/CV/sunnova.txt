@@ -1,0 +1,30 @@
+String token = "Name:Moreshwar;Loc:Mumbai"
+String str[] =token.split("\\;");
+for(String ss:str){
+String s1[]=ss.split("\\:");
+
+HashMap<String,String>hm= new HashMap<String,String>();
+for(String s1:str)
+{
+if(hm.containsKey()&& hm.containsValue()){
+hm.put(s1,s1);
+System.out.println(hm);
+}
+}
+
+
+int number = 1234
+int n=0;
+String s=number.toString();
+
+for(int i=0;i<s.length();i++){
+if(Character.isDigit(s.charAt(i)){
+n=n+Integer.parseInt(s.charAt(i));
+}
+System.out.println(n);//10
+
+
+
+
+
+

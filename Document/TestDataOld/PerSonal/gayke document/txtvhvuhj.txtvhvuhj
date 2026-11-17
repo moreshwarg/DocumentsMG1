@@ -1,0 +1,10 @@
+int[] Nums = {2,4,3,5,3,2,7,5,1,5,9,8};
+int a[]=0;
+for(int i=0;i<Nums.lenght()-1;i++)
+{
+if (i%2!=0)
+{
+
+System.out.println(NUms[i]);
+}
+else

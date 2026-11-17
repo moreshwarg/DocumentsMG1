@@ -1,0 +1,15 @@
+
+String a = "ganesh";
+String b = "gayke";
+
+for(int i=0;i<a.lenght()-1;i++)
+{
+for(int j=0;j<b.lenght()-1;j++)
+{
+if(a(i)!=aj])
+{
+System.out.Println(a[j]);
+}}}
+===========================================
+int a ;
+double;

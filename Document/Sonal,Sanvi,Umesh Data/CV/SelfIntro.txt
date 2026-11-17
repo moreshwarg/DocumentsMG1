@@ -1,0 +1,5 @@
+"Thank you for giving me the opportunity to introduce myself. My name is Moreshwar Gayke, and I have over 3 years of experience as a Software Engineer. I initially started my career in Manual Testing, where I was responsible for understanding requirements, writing test scenarios, and designing test cases accordingly. I reviewed these test cases with my lead, made the necessary changes, and executed them once the application was received. Any deviations between the actual and expected results were logged as defects in HP ALM. While writing test cases, I applied various design techniques such as Boundary Value Analysis (BVA), Equivalence Class Partitioning (ECP), and Decision Table Testing.
+
+For the last two years, I have been working in both Manual and Automation Testing. I use Selenium with Java for automation, follow the Page Object Model (POM) design pattern, and manage the project using Maven folder structure. Additionally, I have created a BDD framework using Cucumber on my personal device.
+
+That's all about me. Thank you."

@@ -1,0 +1,40 @@
+String path = "c\\user\moreshwar\\desktop.xlsx";
+FileInputStream file = new FileInputStream(path);
+String data= workbookFactory.create(file).getSheet("Shhet2").getRow(2).getCell(1).getStringcellvalue();
+
+
+calss A{
+publi alpha(){
+system.out.println("alpha")}
+
+
+public class B extends A{
+alpha(){
+System.out.println("beta")
+}
+
+public class C
+ public static void main(String [])arg{
+A v = new A();
+v.alpha();
+
+B n= new B();
+
+
+
+catch
+
+
+
+list <WebElement> list = driver.findElement(By.tagName("a"));
+System.out.println(list.size())
+for (int i =1 ;i<list.size();i++)
+{
+if (list %2==0){
+
+list.get(i).sendkeys("yes");
+}
+else
+{
+list.get(i).sendkeys("no");
+}
